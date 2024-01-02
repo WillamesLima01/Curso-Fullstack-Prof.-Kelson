@@ -6,7 +6,7 @@
     <link rel="stylesheet" href="styles.css">
     <title>Tempero da Casa</title>
 </head>
-<body>
+<body id="bodycontato">
 
     <header>
         <h1>Restaurante Tempero da Casa</h1>
@@ -21,8 +21,8 @@
         </nav>
     </header>
    
-    <section class="main-content">
-        <h2>Contato</h2>
+    <section class="contato">
+        <h2 id="contatoh2">Contato</h2>
         <form>
             <label for="nome">Nome:</label>
             <input type="text" id="nome" name="nome" required>
@@ -34,21 +34,19 @@
             <textarea id="mensagem" name="mensagem" required></textarea>
 
             <button type="submit">Enviar Mensagem</button>
-        </form>
-
-        <a href="https://wa.me/seunumerodetelefone" target="_blank">
-            <button>Chat no WhatsApp</button>
-        </a>
-
-        <div class="redes-sociais">
-            <button>Facebook</button>
-            <button>Instagram</button>
-            <button>Twitter</button>
-        </div>
+        </form>                
     </section>
 
     <footer>
-        <p>&copy; 2003 Tempero da Casa</p>
+        <div class="paragrafo">
+            <p>&copy; 2003 Tempero da Casa  (83) 3233-5644</p>                           
+        </div>  
+        <div class="redes-sociais">     
+            <a href="https://wa.me/seunumerodetelefone" target="_blank"><button class="WhatsApp-btn"></button></a>
+            <button class="instagram-btn"></button>      
+            <button class="facebook-btn"></button>  
+            <button class="twitter-btn"></button>                       
+        </div>        
     </footer>
 </body>
 </html>

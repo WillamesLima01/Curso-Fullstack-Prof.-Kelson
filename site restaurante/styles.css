@@ -1,14 +1,12 @@
+/*------------------------------------ configuração geral --------------------------------------------*/
 body {
     font-family: 'Arial', sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #f5f5f5;       
-}
-
-body.index {
-    background-image: url(imagens/restaurante.png);
+    background-color: #f5f5f5;     
     background-size:  cover;
-    background-repeat: no-repeat;      
+    background-repeat: no-repeat;    
+    background-position: center center;
 }
 
 body a {
@@ -20,11 +18,10 @@ body a:hover {
     color: #add8e6; /* Azul claro quando passa o mouse */
 }
 
-
 header {    
     background-color: rgba(51, 51, 51, 0.7);
     color: rgb(245, 245, 84);/*#fff;*/
-    padding: 1em;
+    padding: 10px;
     text-align: center;
 }
 
@@ -38,61 +35,69 @@ nav ul li {
     margin-right: 20px;    
 }
 
-.main-content {
-    max-width: 700px;    
-    margin: 40px auto;     
-    margin-left: 40%;
-    margin-top: 190px;
-    padding: 1px;
-    background-color: rgba(243, 238, 238, 0.3);
-    border-radius: 5px;
-    color:#f5f5f5
-}
-
 footer {
-    background-color: rgba(51, 51, 51, 0.7);
+    background-color: rgba(51, 51, 51, 0.5);
     color: rgb(245, 245, 84);
-    padding: 10px;
+    padding: 4px;
     text-align: center;
     align-items: center;
     display: flex;  /*Usar flexbox para alinhar itens na mesma linha */   
-    margin-top: 20%;    
+    margin-top: 1%;    
 }
 
-form {
-    max-width: 400px;
-    margin: 0 auto;
+.footer {
+    margin-left: 40%;
 }
 
-label {
-    display: block;
-    margin-bottom: 5px;
+/*--------------------------------------------------------------------------------------------------*/
+#bodyindex {
+    background-image: url(imagens/restaurante.png);
 }
 
-input,
-textarea {
-    width: 100%;
-    padding: 8px;
-    margin-bottom: 10px;
-    box-sizing: border-box;
+#bodysobre {
+    background-image: url(imagens/comidasobrenos.jpg);
 }
 
-button {
-    background-color: #333;
-    color: #fff;
+#bodycardapio {
+    background-image: url(imagens/test2.jpg);
+}
+
+section.index {
+    max-width: 700px;    
+    margin: 40px auto;     
+    margin-left: 40%;
+    margin-top: 16%;
+    padding: 1px;
+    background-color: rgba(243, 238, 238, 0.3);
+    border-radius: 5px;
+    color:#f5f5f5        
+}
+
+section.sobre {   
+    max-width: 1000px;    
+    margin: 40px auto;     
+    margin-left: 10%;    
+    margin-top: 10px;
+    padding: 20px;
+    background-color: rgba(243, 238, 238, 0.6);
+    border-radius: 5px;
+    color:#d30a0a    
+}
+
+section.cardapio {    
+    max-width: 950px;
+    margin: 40px auto;
+    margin-left: 10%;
+    margin-top: 10px;
     padding: 10px;
-    border: none;
-    cursor: pointer;
+    background-color: rgba(243, 238, 238, 0.3);
+    border-radius: 5px;
+    color: #181717;
+    overflow-y: auto;
+    max-height: 46vh;  /*Defina uma altura máxima para permitir a rolagem */    
 }
 
-button:hover {
-    background-color: #555;
-}
-
-.redes-sociais button:hover {
-    background-color: #5472b8;
-}
-
+/*----------------------------------------- página index ------------------------------------------------*/
 .paragrafo{
     align-items: center;    
     width:100%;
@@ -126,3 +131,83 @@ button:hover {
     background-image: url(imagens/instagram.png);
     border-radius: 5px;
 }
+
+.WhatsApp-btn {
+    background-image: url(imagens/zap.png);
+    border-radius: 5px;
+}
+
+.twitter-btn {
+    background-image: url(imagens/twiter.png);
+    border-radius: 5px;
+}
+
+/*----------------------------------- tabela da página cardápio ----------------------------------------*/
+
+#cardapio {    
+    margin-left: 45%;    
+}
+
+table {
+    width: 100%;
+    border-collapse: separate; /* Certifica-se de que as bordas das células são desenhadas separadamente */
+    border-spacing: 10px; /* Adiciona espaço entre as células (ajuste conforme necessário) */
+}
+
+td, th {
+    padding: 10px;
+    text-align: left;
+    transition: background-color 0.3s ease; /* Adiciona uma transição suave na mudança de cor de fundo */
+}
+
+/* Define a cor de fundo padrão para os itens da tabela */
+tr:hover {
+    background-color: rgba(173, 216, 230, 0.5); /* Cor de fundo ao passar o mouse sobre a linha da tabela */
+}
+
+/*------------------------------------------ página contato ----------------------------------------------*/
+form {
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+#contatoh2 {
+    margin-left: 45%;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+}
+textarea {
+    width: 100%;
+    padding: 50px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+}
+
+button {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    border-radius: 15px;
+}
+
+button:hover {
+    background-color: #555;
+}
+
+.redes-sociais button:hover {
+    background-color: #5472b8;
+}
+
+/*------------------------------------------------------------------------------------------------------*/
