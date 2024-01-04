@@ -51,19 +51,19 @@ footer {
 
 /*--------------------------------------------------------------------------------------------------*/
 #bodyindex {
-    background-image: url(imagens/restaurante.png);
+    background-image: url(imagens/imgIndex.png);
 }
 
 #bodysobre {
-    background-image: url(imagens/comidasobrenos.jpg);
+    background-image: url(imagens/imgSobrenos.jpg);
 }
 
 #bodycardapio {
-    background-image: url(imagens/test2.jpg);
+    background-image: url(imagens/imgCardapio.jpg);
 }
 
 #bodycontato {
-    background-image: url(imagens/contat.png);
+    background-image: url(imagens/imgContato.png);
 }
 
 section.index {
