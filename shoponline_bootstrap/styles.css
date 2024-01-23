@@ -1,0 +1,30 @@
+#destaques {
+    margin-top: 2%;
+}
+
+#PD {
+    margin-top: 2%;
+}
+
+#produtos-destaque .card {
+    height: 100%; /* Ajuste conforme necessário */
+  }
+
+#produtos-destaque  img.card-img-top {
+    width: 100%; /* Ajuste conforme necessário */
+    height: 200px; /* Ajuste conforme necessário */
+    object-fit: contain; /* Mantém a proporção e cobre todo o espaço disponível */
+    margin-top: 10px;
+  }  
+
+  body {
+    background-color: rgb(233, 168, 70);
+  }
+
+  .nav-item {
+    font-size: 20px;
+  }
+
+  .nav-item :hover {
+        color: rgb(238, 150, 35);
+  }
