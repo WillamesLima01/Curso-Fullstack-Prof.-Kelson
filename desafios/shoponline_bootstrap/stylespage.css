@@ -1,0 +1,60 @@
+body {
+  background-color: rgb(233, 168, 70);
+}
+
+body .accordion {
+  background-color: rgb(233, 168, 70);
+}
+
+#destaques {
+  margin-top: 1%;
+}
+
+header.py-5 {
+  padding: 10px; /* Ajuste o valor de padding conforme necessário */
+  height: 350px; /* Defina a altura desejada */
+}
+
+.navbar-nav{
+  margin-top: 10px;
+  margin-left: 1%;
+}
+
+.produtoButton-btn,
+.clienteButton-btn,
+.categoriaButton-btn {
+  color: white !important;
+  background-color: transparent; /* Remova esta linha */
+  border: 2px solid white;
+  width: 100%;
+  font-size: 30px;  
+  margin-top: 10px;
+  padding: 10px;
+  border-radius: 0;
+  text-align: center;
+  align-items: center;
+}
+
+.produtoButton-btn:hover,
+.clienteButton-btn:hover,
+.categoriaButton-btn:hover {
+  color: rgb(238, 150, 35) !important;
+  background-color: white;
+}
+
+.accordion-item {
+  background-color: transparent !important;
+  border: 0;
+}
+
+.card-img-top {
+  width: 100%; 
+  height: 100px; 
+  object-fit: contain;
+  margin-top: 10px;
+}
+
+.card {
+  height: 100%;
+}
+

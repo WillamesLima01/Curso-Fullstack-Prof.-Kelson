@@ -1,0 +1,63 @@
+#destaques {
+    margin-top: 2%;
+}
+
+#prodCat {
+  display: contents;
+  margin-top: 5px;
+}
+
+.button-btn {  
+  color: white !important;
+  width: 100%;
+  font-size: 30px;
+  margin-right: 0;
+  margin-top: 100px;
+  padding: 20px;
+  border-radius: 0;
+}
+
+.button-btn:hover {
+  color: rgb(238, 150, 35) !important;
+}
+
+.cat-button {    
+  color: white !important;
+  width: 100%;
+  font-size: 30px;
+  margin-right: 0; 
+  margin-top: 0px; 
+  padding: 20px;
+  border-radius: 0;
+}
+
+.cat-button:hover {
+  color: rgb(238, 150, 35) !important;
+}
+
+#produtos-destaque .card {
+    height: 100%; /* Ajuste conforme necessário */
+  }
+
+#produtos-destaque  img.card-img-top {
+    width: 100%; /* Ajuste conforme necessário */
+    height: 200px; /* Ajuste conforme necessário */
+    object-fit: contain; /* Mantém a proporção e cobre todo o espaço disponível */
+    margin-top: 10px;
+  }  
+
+  body {
+    background-color: rgb(233, 168, 70);
+  }
+
+  .nav-item {
+    font-size: 20px;
+  }
+
+  .nav-item :hover {
+        color: rgb(238, 150, 35);
+  }
+
+  .container-fluid {
+    height: 10px; /* Ajuste a altura conforme necessário */
+}

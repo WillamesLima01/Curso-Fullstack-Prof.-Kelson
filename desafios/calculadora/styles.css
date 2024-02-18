@@ -9,7 +9,7 @@ body {
 #display {
     height: 35px;
     width: 70%;
-    font-size: 40px; /* Tamanho menor para a expressão */
+    font-size: 40px; 
     margin-top: 25px;
     border-radius: 5px;
     border: none;

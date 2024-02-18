@@ -1,0 +1,74 @@
+{
+  "alunos": [
+    {
+      "id": 1,
+      "nome": "João",
+      "email": "joao@gmail.com"
+    },
+    {
+      "id": 2,
+      "nome": "Lucas",
+      "email": "lucas@gmail.com"
+    },
+    {
+      "id": 3,
+      "nome": "Maria",
+      "email": "Maria@gmail.com"
+    },
+    {
+      "id": 4,
+      "nome": "Tiago",
+      "email": "tiago@gmail.com"
+    },
+    {
+      "id": 5,
+      "nome": "Pedro",
+      "email": "pedro@gmail.com"
+    },
+    {
+      "id": 6,
+      "nome": "Bob Esponja",
+      "email": "bobesponja@gmail.com"
+    },
+    {
+      "id": 7,
+      "nome": "Rambo",
+      "email": "rambo@gmail.com"
+    }],
+
+  "Professor": [
+    {
+      "id": 1,
+      "nome": "Prof. Antonio",
+      "email": "antoniotec@gmail.com"
+    },
+    {
+      "id": 2,
+      "nome": "Prof. Ana Maria",
+      "email": "anamariatec@gmail.com"
+    },
+    {
+      "id": 3,
+      "nome": "Prof. Lucia",
+      "email": "luciatec@gmail.com"
+    }
+  ],
+
+  "noticias": [
+    {
+      "id": 1,
+      "titulo": "CIS abre agendamento para atendimentos em Odontologia",
+      "texto": "A Clínica de Saúde Integrada do UNIESP (CIS) está agendando atendimentos na área de Odontologia. O serviço é realizado por alunos a partir do 6º período, supervisionados por professores das diversas áreas oferecidas. Para agendar uma vaga, basta ligar para o número 28 2106-3833 ou mandar mensagem via WhatsApp para 83991918937. O contato de e-mail é: clinica.integrada@iesp.edu.br."
+    },
+    {
+      "id": 2,
+      "titulo": "COOPERE lança edital de submissão de TCCs para a revista Diálogos Científicos",
+      "texto": "A coordenação de Pesquisa, Extensão e Responsabilidade Social (COOPERE) tornou pública nesta sexta-feira (16) a chamada de submissão de Trabalhos de Conclusão de Cursos (TCCs) apresentados no semestre 2023.2"
+    },
+    {
+      "id": 3,
+      "titulo": "PAI abre chamada para seleção de novos participantes para semestre 2024.1",
+      "texto": "O Núcleo de Pronto Atendimento Institucional (PAI) abriu inscrições para o processo de seleção de novos participantes no semestre de 2024.1. Serão disponibilizadas 25 vagas, das quais 20 são para exercício das atividades de extensão e 05 para cadastro de reserva."
+    }
+  ]
+}
